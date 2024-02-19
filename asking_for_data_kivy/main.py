@@ -19,16 +19,16 @@ class LoveMeApp(App):
         layout = FloatLayout()
 
         # Pink wallpaper
-        wallpaper = Image(source='wallpaper.jpg', size_hint=(None, None), allow_stretch=True)
+        wallpaper = Image(source='Sourse\\wallpaper.jpg', size_hint=(None, None), allow_stretch=True)
         wallpaper.size = (800,1400)
         wallpaper.pos_hint = {'center_x': 0.5, 'center_y': 0.5}
         
         # Love me question
-        question = Image(source='giphy (8).gif', size_hint=(None, None), size=(200, 200), pos_hint={'center_x': 0.5, 'center_y': 0.5})
+        question = Image(source='Sourse\\giphy (8).gif', size_hint=(None, None), size=(200, 200), pos_hint={'center_x': 0.5, 'center_y': 0.5})
 
         # Animation for yes button
         question_label = Label(text="Do you love me ^^ ?", size_hint=(None, None), size=(350, 100), pos_hint={'center_x': 0.5, 'center_y': 0.65})
-        question_label.font_name = 'The Heart Maze Demo.ttf'
+        question_label.font_name = 'Sourse\\The Heart Maze Demo.ttf'
         question_label.color = (0, 0, 0, 1)  # Black color with full opacity
         question_label.bold = True
         question_label.font_size=30
@@ -50,7 +50,7 @@ class LoveMeApp(App):
                 current_question_index += 1  # Increment index
             
             # Change the question image
-            question.source = list1[current_question_index]
+            question.source = 'Sourse\\'+list1[current_question_index]
             
             # Randomly generate new position for the button within layout bounds
             new_x = random.uniform(0.1, 0.9)  # Adjust these values according to your layout
@@ -79,7 +79,7 @@ class LoveMeApp(App):
             widget.text = "I love u too"
             Animation.cancel_all(no_button)
             no_button.opacity = 0
-            question.source = 'giphy.gif'
+            question.source = 'Sourse\\giphy.gif'
 
         # Yes button
         yes_button = Button(text='Yes', background_color=(1, 0, 1, 1), background_normal='', background_down='')
