@@ -1,0 +1,30 @@
+@@@@ : means compleated.......
+
+
+1. @@@@ add a function to gater inforamtion of user such as age,phone,name first and secoend and userid of this app and password
+2. @@@@ add scoring system
+3. @@@@ after in form i fill up the informtion of password gimme me directelly aacssesd to game
+4. @@@@ after intering age 12 it's doest end the program
+5. @@@@ after entering end this program it's desnt end it
+6. @@@@after deleting an account it's doesn't deleted from databse of score and in databse_math2.txt it's perdusing an error by removing an extra commma
+
+6. @@@@ add txt button 
+7. @@@@ add score system
+8. @@@@ after wining score system
+9. @@@@ in main screen system show score check button
+10. @@@@in game continue quit button.
+11. @@@@ while creating user id they can also add number as user id fix it
+12. @@@@ if we change username it's doesnt change in score....
+
+
+future:
+1. make gui based
+2. @@@@they able to see the information after they sign up
+3. @@@@they able to edit there information too
+4. add exseptional heandling
+5. challenge to break there high score.....
+
+------------------------------------------------------------------------------------------------
+--------------------------if you find error write here------------------------------------------
+------------------------------------------------------------------------------------------------
+1.
